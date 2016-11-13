@@ -14,7 +14,7 @@ public class BugController : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) )
         {
             Vector3 position = this.transform.position;
-            position.x--;
+               position.x--;
             this.transform.position = position;
         }
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
